@@ -72,7 +72,7 @@ body{
 /*导航部分	*/
 .nav{
 	height: 45px;
-	background-color: #274F4F;
+	background-color: #BE3948;
 	border-radius: 4px;
 }
 .nav-list{
@@ -92,7 +92,7 @@ body{
 	text-align: center;
 }
 .nav-list ul li:hover a{
-	background-color: #273E3E;
+	background-color: #aa3022;
 }
 
 .nav-search{
@@ -145,7 +145,7 @@ body{
 	width: 340px;
 	border: 1px solid #EEE;
 }
-.news-title{
+.my-title{
 	height: 34px;
 	line-height: 34px;
 	text-indent: 20px;
@@ -155,7 +155,7 @@ body{
 
 }
 
-.news-title a{
+.my-title a{
 	height: 100%;
 	width: 60px;
 	text-indent: 0;
@@ -170,18 +170,26 @@ body{
 .news-pic{
 	height: 100px;
 	width: 100%;
-	border-bottom: 1px solid #EEE；
+	padding-top: 5px;
+	border-bottom: 1px solid #8e8e8e;
 }
 .news-pic img{
 	float: left;
 	cursor: pointer;
+	margin-left: 10px;
 }
 .news-pic .imgdes{
+	font-size: 12px;
 	float: left;
 	margin-left: 5px;
 }
+.imgdes h3 a{
+	text-decoration:none;
+	font-size: 14px;
+	color: #BE3948;
+}
 .news-list ul{
-	list-style-image: url(../images/li_bg2.gif);
+	list-style-image: url(../images/list.jpg);
 	list-style-position: inside;
 	padding: 10px;
 }
@@ -194,21 +202,65 @@ body{
 	text-decoration: none;
 	color: #222222;
 }
-.news-list ul li a:hover,a:visited{
-	color: #F0F;
+.news-list ul li a:hover{
+	color: red;
 }
 .news-list ul li span{
+	float: right;
 	margin-left: 5px;
 	font-size: 12px;
-	color: blue;
+	color: #8e8e8e;
 }
-
+/*课程中心*/
 .course{
 	width: 410px;
-	background-color: #00F;
+	background-color: #FFF;
 	margin: 0 7px;
 	border: 1px solid #EEE;
 }
+.course-pic{
+	padding-top: 5px;
+	height: 200px;
+}
+.course-pic img{
+	float: left;
+	margin-right: 5px;
+}
+.course-pic a{
+	text-decoration: none;
+	color: #BE3948;
+	font-weight: bold;
+}
+.course-pic p{
+	color: #222222;
+	font-size: 14px;
+	text-indent: 2em;
+}
+.course-list{
+	clear: both;
+}
+.course-list ul{
+	list-style-type: none;
+	padding: 5px;
+	overflow: hidden;
+}
+.course-list ul li{
+	float: left;
+
+}
+.course-list ul a{
+	text-decoration: none;
+	display: block;
+	width: 60px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #8e8e8e;
+	text-align: center;
+}
+.course-list ul a:hover{
+	color: #BE3948;
+}
+/*侧边栏*/
 .sidebar{
 	width: 230px;
 	background-color: #F0d;
