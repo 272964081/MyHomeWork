@@ -4,6 +4,15 @@
 	<meta charset="UTF-8">
 	<title>企业网站实战</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script type="text/javascript" src="myFocus/js/myfocus-2.0.1.min.js"></script>
+<!-- 	<script type="text/javascript" src="myFocus/js/mf-pattern/mF_qiyi.js"></script>
+	<link type="text/css" rel="stylesheet" href="myFocus/js/mf-pattern/mF_qiyi.css"/> -->
+	<script type="text/javascript">
+		myFocus.set({
+			id:"pic-focus",
+			// pattern:"mF_qiyi"
+		})
+	</script>
 </head>
 <body>
 	<div id="header">
@@ -14,7 +23,76 @@
 				<li><a href="#">设为首页</a></li>
 			</ul>
 		</div>
-		<div class="nav"></div>
+
+	</div>
+	<!-- header结束 -->
+	<div class="wrap">
+		<div class="logo">
+			<div class="logo-left">
+				<img src="images/logo.jpg" alt="慕课网logo">
+			</div>
+			<div class="logo-right">
+				<img src="images/tel.jpg" alt="电话">
+				电话:<span>023-1235645</span>
+			</div>
+		</div>
+		<!-- logo区结束 -->
+		<div class="nav">
+			<div class="nav-list">
+				<ul>
+					<li><a href="#">首    页</a></li>
+					<li><a href="#">关于慕课</a></li>
+					<li><a href="#">新闻动态</a></li>
+					<li><a href="#">课程中心</a></li>
+					<li><a href="#">在线课程</a></li>
+					<li><a href="#">人才招聘</a></li>
+				</ul>
+			</div>
+			<div class="nav-search">
+				<form action="#" class="nav-search-form">
+					<input type="text" id="nav-search-input-text" autocomplete="off">
+					<input type="button" id="nav-search-btn">
+				</form>
+			</div>
+		</div>
+		<!-- nav结束 -->
+		<div id="pic-focus">
+			<div class="loading"><img src="images/loading.gif" alt="图片加载中"></div>
+			<div class="pic">
+				<ul>
+					<li><a href="#"><img src="images/ad2.jpg" alt="" text="广告2"></a></li>
+					<li><a href="#"><img src="images/ad3.jpg" alt="" text="广告3"></a></li>
+					<li><a href="#"><img src="images/ad4.jpg" alt="" text="广告4"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- pic-focus结束 -->
+		<div id="main">
+			<div class="news">
+				<div class="news-title">新闻中心 <a href="#">More&gt;&gt;</a></div><!-- title结束 -->
+				<div class="news-pic">
+					<img src="images/news.jpg" alt="新闻图片">
+					<div class="imgdes">
+					<h3>苦逼青年学商业网站</h3>
+					<p>学的不行差点放弃</p>
+					<p>还好没放弃</p>
+					<p>Lorem ipsum dolo</p>
+					</div>
+				</div>
+				<div class="news-list">
+					<ul>
+						<li><a href="#">【慕课访谈 用户篇】“有为屌丝”在路上</a><span>2014-06-01</span></li>
+						<li><a href="#">【有奖活动】给父亲的三行书信</a><span>2014-06-01</span></li>
+						<li><a href="#"> 程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span></li>
+						<li><a href="#">【慕课访谈】破茧成蝶————美女程序猿的锐变史</a><span>2014-05-28</span></li>
+						<li><a href="#">建筑狗历险记</a><span>2016.06.06</span></li>
+					</ul>
+				</div>
+			</div>
+			<!-- news__end -->
+			<div class="course">课程中心</div>
+			<div class="sidebar">侧边栏</div>
+		</div>
 	</div>
 </body>
 </html>
