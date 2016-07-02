@@ -263,10 +263,71 @@ body{
 /*侧边栏*/
 .sidebar{
 	width: 230px;
-	background-color: #F0d;
+}
+.video{
+	height: 235px;
+	border: 1px solid #EEE;
+}
+.video-content{
+	height: 200px;
+	margin-top: 5px;
+}
+.video-ad{
+	height: 55px;
+	border: 1px solid #eee;
+	margin-top: 5px;
 }
 
 .news,.course,.sidebar{
 	float: left;
 	height: 100%;
+}
+#footer{
+	margin-top: 5px;
+	height: 150px;
+	width: 100%;
+	background-color: #EEE;
+	border-top: 1px solid #AAA;
+	padding-top: 10px;
+}
+.copyright-content{
+	height: 100%;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.copyright-content ul,.copyright-content a{
+	list-style-type: none;
+	text-align: center;
+	font-family: "微软雅黑";
+	color:#8E8E8E;
+	text-decoration: none;
+}
+.copyright-content ul li{
+	float: left;
+	width: 200px;
+	font-weight: bold;
+}
+.copyright-content ul li ul li{
+	height: 24px;
+
+}
+.copyright-content ul li ul li a{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+.copyright-top img{
+	vertical-align: center;
+	float: left;
+	margin-left: 30px;
+} 
+.copyright-top{
+	text-align: left;
+	height: 28px;
+}
+.copyright-bottom{
+	float: left;
+	height: 90px;
+	margin-left: 30px;
 }
