@@ -152,7 +152,7 @@ body{
 	color: #786f66;
 	border-bottom: 1px solid #8e8e8e;
 	font-weight: bold;
-
+	box-shadow: 0 0 5px #AAA;
 }
 
 .my-title a{
@@ -283,7 +283,7 @@ body{
 	height: 100%;
 }
 #footer{
-	margin-top: 5px;
+	margin-top: 2px;
 	height: 150px;
 	width: 100%;
 	background-color: #EEE;
@@ -332,54 +332,58 @@ body{
 	height: 90px;
 	margin-left: 30px;
 }
-.list-main{
-	min-height: 350px;
-	_height:350px;
-	width: 100%;
-	background-color: #fff;
+
+.list-content{
+	overflow: hidden;
+	margin-top: 2px;
+
 }
-.news-type{
+.list-left{
 	width: 220px;
-	_height:350px;
 	min-height: 350px;
 	float: left;
-	border: 1px solid #EEE;
+	border: 1px solid #AAA;
 }
-.news-type h3{
-	color: #8E8E8E;
-	font-size: 14px;
-	font-family: "微软雅黑";
-	text-align: center;
-	height: 35px;
-	line-height: 35px;
-	background: url(../images/title_bg.gif) repeat-x;
-	box-shadow: 0 1px 3px #ccc;
-}
-.news-type ul{
+.list-news ul{
 	list-style-type: none;
-	padding-top: 10px;
-	font-size: 12px;
+	width: 100%;
 }
-.news-type ul li a{
-	text-decoration: none;
-	color: #666;
-	text-indent: 25px;
-	display: block;
-	height: 30px;
-	line-height: 30px;
+.list-news ul li{
+	height: 29px;
+	line-height: 29px;
+	width: 100%;
+	float: left;
 	border-bottom: 1px dotted #AAA;
-	background: url(../images/li_bg.gif) no-repeat 10px center;
+	background: url(../images/li_bg.gif) no-repeat 5px ;
+	padding-left: 20px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 }
-.news-type ul li a:hover{
-	color:#00CED1;
-	background-color: #eee;
-	background: url(../images/li_bg2.gif) no-repeat 10px center;
+.list-news ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	width: auto;
+	color: #786f66;
+	display: block;
 }
-.list-box{
+.list-news ul li:hover{
+	background: url(../images/li_bg2.gif) no-repeat 5px;
+}
+.list-news ul li:hover a{
+	color: #0fd;
+}
+.list-right{
 	width: 770px;
-	_height:350px;
 	min-height: 350px;
-	background-color: #dde;
 	float: right;
+	border: 1px solid #AAA;
+}
+.list-right ul li a span{
+	font-size:12px;
+	color: blue;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
 }
 
