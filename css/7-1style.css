@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrap{
+	width: 1000px;
+	margin:0 auto;
+	font-family: "微软雅黑";
+}
+.nav{
+	height: 55px;
+	width: 100%;
+	border-bottom: 2px solid #AAA;
+	margin-bottom: 2px;
+}
+.nav img{
+	height: 55px;
+	float: left;
+	margin-right: 50px;
+}
+.nav ul{
+	list-style-type: none;
+}
+.nav ul li{
+	height: 55px;
+	width: 110px;
+	line-height: 55px;
+	float: left;
+}
+
+.nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+}
+.nav ul li:hover a{
+	background-color: #BE3948;
+	color: #FFF !important;
+}
+#picFocus{
+	width: 1000px;
+	height: 314px;
+	overflow: hidden;
+	clear: both;
+}
+
+.news{
+	height: 35px;
+	margin: 20px 0;
+}
+.sub-1,.sub-2{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	color: #FFF;
+	width: 20%;
+	float: left;
+	background-color: #BE3948;
+}
+.sub-2{
+	width: 80%;
+	color: #FFF;
+	background-color: #3E3E3E;
+	text-align: left;
+	text-indent: 2em;
+}
+.course{
+	width: 100%;
+	overflow: hidden;
+}
+.course-left,.course-middle,.course-right{
+	width: 330px;
+	min-height: 350px;
+}
+.course-left{
+	float: left;
+}
+.course-title{
+	margin-bottom: 20px;
+}
+.course-title h3{
+	font-size: 16px;
+	font-weight: normal;
+	border: 1px solid #AAA;
+	/*border-top: 0;*/
+	text-align: center;
+	line-height: 25px;
+	-webkit-margin: 0;
+}
+
+.course-middle{
+	float: left;
+	background-color: #000;
+	margin: 0 5px;
+}
+.course-right{
+	float: right;
+	background-color: #F40;
+}
